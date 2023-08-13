@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+
+:root {
+  --main-color: hsl(30, 38%, 92%);
+  --secondary-color: hsl(158, 36%, 37%);
+  --neutral-dark: hsl(212, 21%, 14%);
+  --neutral-grayish: hsl(228, 12%, 48%);
+  --shadow: hsla(228, 12%, 48%, 0.445);
+  --neutral-white: hsl(0, 0%, 100%);
+}
+
+.align-middle {
+  vertical-align: top;
+}
+
+html {
+  display: grid;
+  place-content: center;
+  background-color: var(--main-color);
+  min-height: 100vh;
+}
+
+body {
+  display: grid;
+  place-content: center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  html {
+    background-color: var(--main-color);
+    display: grid;
+    place-content: center;
+    height: auto;
+    max-height: 1028px;
+    width: auto;
+    max-width: 768px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--neutral-white);
+  width: 600px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px var(--shadow);
+}
+
+.left {
+  content: url(/product-preview-card-component-main/images/image-product-desktop.jpg);
+  height: 450px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.right {
+  margin-top: 20px;
+  margin-left: 30px;
+  height: 450px;
+  width: 200px;
+}
+
+.btn {
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  color: var(--neutral-white);
+  font-family: "Montserrat";
+  font-weight: 400;
+  background-color: var(--secondary-color);
+  width: 240px;
+  height: 45px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: hsl(159, 36%, 17%);
+}
+
+.cart {
+  width: 14px;
+  margin-right: 7px;
+  content: url(/product-preview-card-component-main/images/icon-cart.svg);
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+h3 {
+  display: flex;
+  flex-direction: row;
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--secondary-color);
+}
+
+h5 {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: var(--neutral-grayish);
+  font-size: 14px;
+  width: 220px;
+  line-height: 23px;
+}
+
+.offtext {
+  color: var(--neutral-grayish);
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 8px;
+  margin-left: 15px;
+}
