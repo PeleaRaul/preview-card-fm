@@ -10,8 +10,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
@@ -39,7 +37,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [https://github.com/PeleaRaul/preview-card-fm]
-- Live Site URL: [Add live site URL here]
+- Live Site URL: [https://preview-card-fm-pelearaul.vercel.app/]
 
 ## My process
 

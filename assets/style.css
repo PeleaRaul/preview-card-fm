@@ -131,7 +131,7 @@ h2 {
   line-height: 30px;
 }
 
-h3 {
+h4 {
   display: flex;
   flex-direction: row;
   font-family: "Fraunces";
@@ -140,7 +140,7 @@ h3 {
   color: var(--secondary-color);
 }
 
-h5 {
+h3 {
   font-family: "Montserrat";
   font-weight: 400;
   color: var(--neutral-grayish);
@@ -160,7 +160,7 @@ h5 {
 
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
-  h5 {
+  h3 {
     font-family: "Montserrat";
     font-weight: 400;
     color: var(--neutral-grayish);
@@ -168,7 +168,7 @@ h5 {
     width: 340px;
     line-height: 23px;
   }
-  h3 {
+  h4 {
     display: flex;
     flex-direction: row;
     font-family: "Fraunces";
